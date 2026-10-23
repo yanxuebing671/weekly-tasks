@@ -1,0 +1,12 @@
+{
+  "name": "jingjiuye-weekly-tasks",
+  "version": "1.0.0",
+  "description": "荆九爷每周任务发布系统 - 双向同步版",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

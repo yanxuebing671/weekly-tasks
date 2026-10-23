@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: jingjiuye-weekly-tasks
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /api/state
